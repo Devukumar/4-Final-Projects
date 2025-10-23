@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OnlineShopping</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: rgb(95, 106, 106);
+    }
+    h1 {
+      text-align: center;
+    }
+    h2 {
+      margin: 10px 0;
+    }
+    .online-shopping-container {
+      max-width: 770px;
+      background-color: white;
+      margin: 14px auto;
+      padding: 10px;
+      border-radius: 9px;
+      box-shadow: 0 4px 8px 0 gray;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .productrow {
+      display: flex;
+      justify-content: space-between;
+      border-radius: 5px;
+      border: 1px solid black;
+      padding: 10px;
+      align-items: center;
+      margin: 10px 0;
+    }
+    .Addcart {
+      background-color: rgb(82, 82, 203);
+      border: none;
+      color: aliceblue;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: rgb(10, 10, 218);
+    }
+    #feedback {
+      position: fixed;
+      top: 20px;
+      right: 90px;
+      background-color: aliceblue;
+      padding: 5px;
+      border: none;
+      color: rgb(86, 185, 86);
+      font-size: 20px;
+      font-style: italic;
+      font-weight: bold;
+      display: none;
+    }
+    #totalPrice {
+      border: none;
+      text-align: end;
+    }
+  </style>
+  <body>
+    <div class="online-shopping-container">
+      <h1>Online Shopping</h1>
+      <p id="feedback"></p>
+      <h2>Avaiable Products</h2>
+      <div id="productContainer">
+        <!-- <div class="productrow">
+          <p>Laptop - RS.50000</p>
+          <button class="Addcart">Add to cart</button>
+        </div> 
+
+         <div class="product-row">
+          <p>Laptop - RS.50000</p>
+          <button class="Addcart">Add to cart</button>
+        </div>
+
+        <div class="product-row">
+          <p>Laptop - RS.50000</p>
+          <button class="Addcart">Add to cart</button>
+        </div> -->
+      </div>
+      <h2>My Cart</h2>
+      <div id="cartContainer">
+        <!-- <div class="productrow">
+          <p>Laptop - RS.50000</p>
+          <button class="Addcart" onclick="addTocart()">Remove</button>
+        </div> -->
+      </div>
+      <h2 id="totalPrice">Rs.0</h2>
+      <h2>Actions</h2>
+      <button class="Addcart" id="sortByPrice">Sort By Price</button>
+      <button class="Addcart" id="clearCart">Clear Cart</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

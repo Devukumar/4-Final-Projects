@@ -1,0 +1,55 @@
+*{
+      margin: 0px;
+    }
+    .mainHeading {
+      background-color: rgb(84, 223, 84);
+      color: aliceblue;
+      text-align: center;
+      padding: 23px;
+      margin-bottom: 8px;
+      border-radius: 10px;
+    }
+    .ContainerFirst {
+      margin: auto;
+      max-width: 800px;
+      border-radius: 15px;
+      background-color: rgb(238, 238, 242);
+      padding: 10px;
+      box-shadow: 1px 1px 7px 7px rgb(124, 112, 112);
+    }
+    .paraPersonal{
+      color: rgb(92, 214, 71);
+      border-bottom: 8px  solid rgb(97, 212, 97);
+      font-size: 25px;
+      margin: 10px;
+    }
+    .section {
+      margin: 10px;
+      margin-bottom: 10px;
+    }
+    .spanStyle {
+      background-color: rgb(81, 164, 81);
+      color: aliceblue;
+      padding: 7px;
+      display: inline-block;
+      border-radius: 15px;
+      margin: 10px 10px 10px 0;
+    }
+    .buttonShow{
+      color: aliceblue;
+      background-color: rgb(97, 216, 97);
+      border: none;
+      padding: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: rgb(214, 102, 102);
+    }
+    .FooterStyle {
+      text-align: center;
+      background-color: rgb(98, 86, 86);
+      margin-top: 20px;
+      padding: 20px;
+      color: aliceblue;
+    }

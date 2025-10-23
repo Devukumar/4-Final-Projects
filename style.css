@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 20px;
+}
+.homepage-container {
+  max-width: 800px;
+  margin: auto;
+  background-color: rgb(135, 140, 33);
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+}
+.centerText {
+  text-align: center;
+}
+.whiteText {
+  color: white;
+}
+.font20Px {
+  font-size: 20px;
+}
+.font80px {
+  font-size: 120px;
+}
+.font30Px {
+  font-size: 30px;
+}
+.opacity {
+  opacity: 0.3;
+}
+.primaryButton {
+  background: none;
+  background-color: rgb(30, 42, 179);
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  margin: 10px 5px;
+  color: aliceblue;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+.primaryButton:hover {
+  background-color: rgb(31, 37, 105);
+}
+li {
+  list-style-position: inside;
+}
+.margin {
+  margin: 5px;
+}
